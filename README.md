@@ -59,3 +59,8 @@ Welcome to the Real Time Clock (RTC) Project, a precise clock system that displa
 5. Enjoy precise timekeeping and accurate time displays with your Real Time Clock Project!
 
 ## Scenarios
+
+
+
+https://github.com/Ibrahim-Elsayed-27/Real-Time-Clock/assets/95621621/df477d7a-2657-45fb-8dda-4c660ff9724b
+
