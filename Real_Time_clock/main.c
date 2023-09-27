@@ -7,8 +7,7 @@
 
 #include "MCAL/TIMER0/TIMER0.h"
 #include "MCAL/TIMER2/TIMER2.h"
-#include "MCAL/EXTERNAL INTERRUPT/EXTERNAL_INTERRUPT.h"
-#include "MCAL/DIO/DIO.h"
+
 
 #define F_CPU 8000000UL
 #include <util/delay.h>

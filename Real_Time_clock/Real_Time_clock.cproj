@@ -156,12 +156,6 @@
     <Compile Include="MCAL\DIO\DIO.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="MCAL\EXTERNAL INTERRUPT\EXTERNAL_INTERRUPT.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="MCAL\EXTERNAL INTERRUPT\EXTERNAL_INTERRUPT.h">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="MCAL\TIMER0\TIMER0.c">
       <SubType>compile</SubType>
     </Compile>
@@ -185,7 +179,6 @@
     <Folder Include="HAL\KEYPAD" />
     <Folder Include="MCAL" />
     <Folder Include="MCAL\DIO" />
-    <Folder Include="MCAL\EXTERNAL INTERRUPT" />
     <Folder Include="MCAL\TIMER2" />
     <Folder Include="MCAL\TIMER0" />
     <Folder Include="HAL" />
