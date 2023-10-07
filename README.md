@@ -1,6 +1,6 @@
 # Real Time Clock Project
 
-Welcome to the Real Time Clock (RTC) Project, a precise clock system that displays the real-time on six seven-segment displays. This project is powered by the ATmega32 microcontroller and offers accurate timekeeping with interactive adjustments via a keypad interface. Whether for industrial applications, home use, or educational purposes, this RTC is a valuable tool for keeping track of time.
+Welcome to the Real Time Clock (RTC) Project, a precise clock system that displays real-time on six seven-segment displays and supports 3 different modes. This project is powered by the ATmega32 microcontroller and offers accurate timekeeping with interactive adjustments via a keypad interface. Whether for industrial applications, home use, or educational purposes, this RTC is a valuable tool for keeping track of time.
 
 ## Table of Contents
 
@@ -12,7 +12,11 @@ Welcome to the Real Time Clock (RTC) Project, a precise clock system that displa
 
 ## Features
 
-- **Real-Time Clock**: Displays the current time with separate segments for seconds, minutes, and hours.
+- **Real-Time Clock Mode**: Displays the current time with separate segments for seconds, minutes, and hours.
+
+- **Stop-Watch Mode**: Allows the user to set a specific time, and the timer will decrement until it reaches zero. The red LED alarm will be on for 10 seconds.
+ 
+- **Alarm Mode**: Allows the user to set a specific time, and the timer operates as a real-time clock until reaching the specified time. The red LED alarm will be on for 10 seconds.
 
 - **Interactive Keypad**: Adjust the time settings interactively through the keypad.
 
@@ -28,6 +32,7 @@ Welcome to the Real Time Clock (RTC) Project, a precise clock system that displa
 
 - ATmega32 Microcontroller
 - LCD Display
+- LED
 - Six Seven-Segment Displays
 - Keypad
 - BCD to 7-Segment Decoder
@@ -37,9 +42,11 @@ Welcome to the Real Time Clock (RTC) Project, a precise clock system that displa
 
 - **HAL (Hardware Abstraction Layer)**:
   - LCD
+  - LED
   - Seven-Segment Displays
   - Keypad
   - 3-to-8 Decoder
+
 
 - **MCAL (Microcontroller Abstraction Layer)**:
   - Digital Input/Output (DIO)
@@ -49,14 +56,16 @@ Welcome to the Real Time Clock (RTC) Project, a precise clock system that displa
 ## How to Use
 
 1. Press the ON/OFF button on the keypad to request time adjustment.
+   
+2. Use the keypad to Select the desired mode.
 
-2. Use the keypad to set the desired time values for seconds, minutes, and hours.
+3. Use the keypad to set the desired time values for seconds, minutes, and hours.
 
-3. Interact with the LCD display for feedback during time adjustments.
+4. Interact with the LCD display for feedback during time adjustments.
 
-4. The real-time clock will display the adjusted time on the six seven-segment displays.
+5. The real-time clock will display the adjusted time on the six seven-segment displays.
 
-5. Enjoy precise timekeeping and accurate time displays with your Real Time Clock Project!
+6. Enjoy precise timekeeping and accurate time displays with your Real Time Clock Project!
 
 ## Scenarios
 
