@@ -147,6 +147,12 @@
     <Compile Include="HAL\LCD\LCD_Config.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="HAL\LED\LED.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="HAL\LED\LED.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
@@ -177,6 +183,7 @@
     <Folder Include="HAL\Decoder-3t8" />
     <Folder Include="HAL\LCD" />
     <Folder Include="HAL\KEYPAD" />
+    <Folder Include="HAL\LED" />
     <Folder Include="MCAL" />
     <Folder Include="MCAL\DIO" />
     <Folder Include="MCAL\TIMER2" />

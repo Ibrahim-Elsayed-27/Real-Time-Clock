@@ -1,9 +1,6 @@
 main.d main.o: .././main.c .././MCAL/TIMER0/TIMER0.h \
  .././MCAL/TIMER0/../../Std_Macros.h .././MCAL/TIMER2/TIMER2.h \
  .././MCAL/TIMER2/../../Std_Macros.h \
- .././MCAL/EXTERNAL\ INTERRUPT/EXTERNAL_INTERRUPT.h \
- .././MCAL/EXTERNAL\ INTERRUPT/../../Std_Macros.h .././MCAL/DIO/DIO.h \
- .././MCAL/DIO/../../Std_Macros.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h \
@@ -21,7 +18,10 @@ main.d main.o: .././main.c .././MCAL/TIMER0/TIMER0.h \
  .././HAL/KEYPAD/../../MCAL/DIO/../../Std_Macros.h \
  .././HAL/KEYPAD/../../Std_Macros.h .././HAL/LCD/LCD.h \
  .././HAL/LCD/../../MCAL/DIO/DIO.h \
- .././HAL/LCD/../../MCAL/DIO/../../Std_Macros.h .././HAL/LCD/LCD_Config.h
+ .././HAL/LCD/../../MCAL/DIO/../../Std_Macros.h .././HAL/LCD/LCD_Config.h \
+ .././HAL/LED/LED.h .././HAL/LED/../../MCAL/DIO/DIO.h \
+ .././HAL/LED/../../MCAL/DIO/../../Std_Macros.h \
+ .././HAL/LED/../../Std_Macros.h
 
 .././MCAL/TIMER0/TIMER0.h:
 
@@ -30,14 +30,6 @@ main.d main.o: .././main.c .././MCAL/TIMER0/TIMER0.h \
 .././MCAL/TIMER2/TIMER2.h:
 
 .././MCAL/TIMER2/../../Std_Macros.h:
-
-.././MCAL/EXTERNAL\ INTERRUPT/EXTERNAL_INTERRUPT.h:
-
-.././MCAL/EXTERNAL\ INTERRUPT/../../Std_Macros.h:
-
-.././MCAL/DIO/DIO.h:
-
-.././MCAL/DIO/../../Std_Macros.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
 
@@ -82,3 +74,11 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 .././HAL/LCD/../../MCAL/DIO/../../Std_Macros.h:
 
 .././HAL/LCD/LCD_Config.h:
+
+.././HAL/LED/LED.h:
+
+.././HAL/LED/../../MCAL/DIO/DIO.h:
+
+.././HAL/LED/../../MCAL/DIO/../../Std_Macros.h:
+
+.././HAL/LED/../../Std_Macros.h:
